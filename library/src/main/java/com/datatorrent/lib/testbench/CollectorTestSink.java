@@ -29,7 +29,7 @@ import java.util.List;
  * @since 0.3.2
  */
 public class CollectorTestSink<T> implements Sink<T>
-{
+{ 
   final public List<T> collectedTuples = new ArrayList<T>();
 
   /**
